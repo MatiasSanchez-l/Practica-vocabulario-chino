@@ -55,7 +55,7 @@ function validate4()
         }
     }
 
-    if(document.getElementById('mandarina').value!='cammandarinaisa'){
+    if(document.getElementById('mandarina').value!='mandarina'){
 		error++;
         errorMessage+="<p>La respuesta de 桔子 es errónea</p>";
         document.getElementById('mandarina').classList.add('errorInput');
@@ -120,7 +120,7 @@ function validate4()
         }
     }
 
-    if(document.getElementById('aMenudo').value!='aMenudo'){
+    if(document.getElementById('aMenudo').value!='a menudo'){
 		error++;
         errorMessage+="<p>La respuesta de 常常 es errónea</p>";
         document.getElementById('aMenudo').classList.add('errorInput');
@@ -224,7 +224,7 @@ function validate4()
         }
     }
 
-    if(document.getElementById('liquidacionProducto').value!='liquidacion producto'){
+    if(document.getElementById('liquidacionProducto').value!='liquidacion de producto'){
 		error++;
         errorMessage+="<p>La respuesta de 处理品 es errónea</p>";
         document.getElementById('liquidacionProducto').classList.add('errorInput');
@@ -302,7 +302,7 @@ function validate4()
         }
     }
 
-    if(document.getElementById('perteneceCaballo').value!=' me pertenece caballo'){
+    if(document.getElementById('perteneceCaballo').value!='pertenece caballo'){
 		error++;
         errorMessage+="<p>La respuesta de  我属马 es errónea</p>";
         document.getElementById('perteneceCaballo').classList.add('errorInput');

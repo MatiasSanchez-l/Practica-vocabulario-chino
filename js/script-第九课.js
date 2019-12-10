@@ -81,7 +81,7 @@ function validate1()
         }
     }
 
-    if(document.getElementById('actor').value!='actor/actriz'){
+    if(document.getElementById('actor').value!='actor'){
 		error++;
         errorMessage+="<p>La respuesta de 演员 es errónea</p>";
         document.getElementById('actor').classList.add('errorInput');
@@ -481,19 +481,6 @@ function validate1()
         if(document.getElementById('tarea').classList.contains('errorInput'))
         {
             document.getElementById('tarea').classList.remove('errorInput');
-        }
-    }
-
-    if(document.getElementById('zapatoPiel').value!='zapato de piel'){
-		error++;
-        errorMessage+="<p>La respuesta de 皮鞋 es errónea</p>";
-        document.getElementById('zapatoPiel').classList.add('errorInput');
-    }
-    else
-    {
-        if(document.getElementById('zapatoPiel').classList.contains('errorInput'))
-        {
-            document.getElementById('zapatoPiel').classList.remove('errorInput');
         }
     }
 

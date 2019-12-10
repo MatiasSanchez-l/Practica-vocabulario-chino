@@ -42,7 +42,7 @@ function validate3()
         }
     }
 
-    if(document.getElementById('aguaMineral').value!='aguaMineral'){
+    if(document.getElementById('aguaMineral').value!='agua mineral'){
 		error++;
         errorMessage+="<p>La respuesta de 矿泉水 es errónea</p>";
         document.getElementById('aguaMineral').classList.add('errorInput');
@@ -120,7 +120,7 @@ function validate3()
         }
     }
 
-    if(document.getElementById('heladoAgua').value!='heladoAgua'){
+    if(document.getElementById('heladoAgua').value!='helado de agua'){
 		error++;
         errorMessage+="<p>La respuesta de 冰棍儿 es errónea</p>";
         document.getElementById('heladoAgua').classList.add('errorInput');
@@ -263,7 +263,7 @@ function validate3()
         }
     }
 
-    if(document.getElementById('barcoChiquito').value!='barcoChiquito'){
+    if(document.getElementById('barcoChiquito').value!='barco chiquito'){
 		error++;
         errorMessage+="<p>La respuesta de 小船儿 es errónea</p>";
         document.getElementById('barcoChiquito').classList.add('errorInput');

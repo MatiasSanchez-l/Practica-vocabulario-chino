@@ -198,7 +198,7 @@ function validate0()
         }
     }
 
-    if(document.getElementById('muyNegro').value!='restaurante chiquito'){
+    if(document.getElementById('muyNegro').value!='muy negro'){
 		error++;
         errorMessage+="<p>La respuesta de 很黑 es errónea</p>";
         document.getElementById('muyNegro').classList.add('errorInput');

@@ -172,7 +172,7 @@ function validate2()
         }
     }
 
-    if(document.getElementById('inteligente').value!='inteligente'){
+    if(document.getElementById('inteligente').value!='inteligencia'){
 		error++;
         errorMessage+="<p>La respuesta de 聪明 es errónea</p>";
         document.getElementById('inteligente').classList.add('errorInput');
