@@ -51,7 +51,7 @@ input.errorInput{
 {
     display: flex;
     justify-content: space-between;
-    list-style: none;
+    list-style: square;
 }
 
 .nav-menu
@@ -61,7 +61,7 @@ input.errorInput{
 
 .nav-menu ul a
 {
-    color: azure;
+    color: rgb(239, 223, 252);
     font-weight: bold;
     font-size: x-large;
     text-decoration: none;
@@ -70,4 +70,9 @@ input.errorInput{
 .nav-menu ul a:hover
 {
     color:#d7acf0;
+}
+
+form
+{
+    margin-top: 0.9em;
 }
