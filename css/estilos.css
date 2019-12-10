@@ -7,6 +7,8 @@
 body
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2d2c47;
+    color:azure;
 }
 
 header, main
@@ -43,4 +45,29 @@ input.errorInput{
 {
     margin-top: 2em;
     color: crimson;
+}
+
+.nav-menu ul
+{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-menu
+{
+    margin: 2em;
+}
+
+.nav-menu ul a
+{
+    color: azure;
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.nav-menu ul a:hover
+{
+    color:#d7acf0;
 }
