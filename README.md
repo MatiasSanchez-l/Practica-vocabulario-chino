@@ -1,4 +1,4 @@
-# Práctica chino mandarin 🇨🇳
+# Práctica chino mandarin 🇨🇳 🇦🇷
 
 Una simple página web para practicar vocabulario de chino mandarin nivel 3.
 
