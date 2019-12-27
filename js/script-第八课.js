@@ -120,32 +120,6 @@ function validate0()
         }
     }
 
-    if(document.getElementById('profesorCatedratico').value!='profesor catedratico'){
-		error++;
-        errorMessage+="<p>La respuesta de 教授 es errónea</p>";
-        document.getElementById('profesorCatedratico').classList.add('errorInput');
-    }
-    else
-    {
-        if(document.getElementById('profesorCatedratico').classList.contains('errorInput'))
-        {
-            document.getElementById('profesorCatedratico').classList.remove('errorInput');
-        }
-    }
-
-    if(document.getElementById('departamento').value!='departamento'){
-		error++;
-        errorMessage+="<p>La respuesta de 系 es errónea</p>";
-        document.getElementById('departamento').classList.add('errorInput');
-    }
-    else
-    {
-        if(document.getElementById('departamento').classList.contains('errorInput'))
-        {
-            document.getElementById('departamento').classList.remove('errorInput');
-        }
-    }
-
     if(document.getElementById('nervioso').value!='nervioso'){
 		error++;
         errorMessage+="<p>La respuesta de 紧张 es errónea</p>";
